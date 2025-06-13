@@ -54,3 +54,32 @@ Source-Age: 0
 [2025-06-13 13:36:05,334: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
 
  X==========================X]
+[2025-06-13 15:32:13,500: INFO: common: yaml file: config/config.yaml loaded sucessfully]
+[2025-06-13 15:32:13,506: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-06-13 15:32:13,507: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-06-13 15:32:13,508: INFO: common: created directory at: artifacts]
+[2025-06-13 15:32:13,509: INFO: common: created directory at: artifacts/data_validation]
+[2025-06-13 15:32:57,870: INFO: common: yaml file: config/config.yaml loaded sucessfully]
+[2025-06-13 15:32:57,871: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-06-13 15:32:57,872: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-06-13 15:32:57,873: INFO: common: created directory at: artifacts]
+[2025-06-13 15:32:57,873: INFO: common: created directory at: artifacts/data_validation]
+[2025-06-13 16:02:18,425: INFO: main: >>>>>>> stage Data Ingestion Stage started <<<<<<<]
+[2025-06-13 16:02:18,426: INFO: common: yaml file: config/config.yaml loaded sucessfully]
+[2025-06-13 16:02:18,426: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-06-13 16:02:18,427: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-06-13 16:02:18,427: INFO: common: created directory at: artifacts]
+[2025-06-13 16:02:18,427: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-13 16:02:18,427: INFO: data_ingestion: File already exists]
+[2025-06-13 16:02:18,430: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+ X==========================X]
+[2025-06-13 16:02:18,430: INFO: main: >>>>>>> stage Data Validation Stage started <<<<<<<]
+[2025-06-13 16:02:18,431: INFO: common: yaml file: config/config.yaml loaded sucessfully]
+[2025-06-13 16:02:18,431: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-06-13 16:02:18,432: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-06-13 16:02:18,432: INFO: common: created directory at: artifacts]
+[2025-06-13 16:02:18,432: INFO: common: created directory at: artifacts/data_validation]
+[2025-06-13 16:02:18,436: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<< 
+
+ X==========================X]
