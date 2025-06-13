@@ -130,3 +130,63 @@ Source-Age: 0
 [2025-06-13 16:59:24,933: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<< 
 
  X==========================X]
+[2025-06-13 17:07:14,647: INFO: main: >>>>>>> stage Data Ingestion Stage started <<<<<<<]
+[2025-06-13 17:07:14,648: INFO: common: yaml file: config/config.yaml loaded sucessfully]
+[2025-06-13 17:07:14,649: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-06-13 17:07:14,649: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-06-13 17:07:14,649: INFO: common: created directory at: artifacts]
+[2025-06-13 17:07:14,650: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-13 17:07:14,650: INFO: data_ingestion: File already exists]
+[2025-06-13 17:07:14,650: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+ X==========================X]
+[2025-06-13 17:07:14,651: INFO: main: >>>>>>> stage Data Validation Stage started <<<<<<<]
+[2025-06-13 17:07:14,651: INFO: common: yaml file: config/config.yaml loaded sucessfully]
+[2025-06-13 17:07:14,652: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-06-13 17:07:14,652: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-06-13 17:07:14,652: INFO: common: created directory at: artifacts]
+[2025-06-13 17:07:14,652: INFO: common: created directory at: artifacts/data_validation]
+[2025-06-13 17:07:14,656: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<< 
+
+ X==========================X]
+[2025-06-13 17:07:14,656: INFO: main: >>>>>>> stage Data Transformation Stage started <<<<<<<]
+[2025-06-13 17:07:14,656: ERROR: main: Your data schema is not valid]
+Traceback (most recent call last):
+  File "/home/ml01/MLOps/Github_actions/Complete-DS-end-to-end-project/main.py", line 33, in <module>
+    obj.initiate_data_transformation()
+  File "/home/ml01/MLOps/Github_actions/Complete-DS-end-to-end-project/src/datascience_project/pipeline/data_transformation_pipeline.py", line 27, in initiate_data_transformation
+    raise e
+  File "/home/ml01/MLOps/Github_actions/Complete-DS-end-to-end-project/src/datascience_project/pipeline/data_transformation_pipeline.py", line 25, in initiate_data_transformation
+    raise Exception("Your data schema is not valid")
+Exception: Your data schema is not valid
+[2025-06-13 17:08:59,660: INFO: main: >>>>>>> stage Data Ingestion Stage started <<<<<<<]
+[2025-06-13 17:08:59,661: INFO: common: yaml file: config/config.yaml loaded sucessfully]
+[2025-06-13 17:08:59,662: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-06-13 17:08:59,662: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-06-13 17:08:59,663: INFO: common: created directory at: artifacts]
+[2025-06-13 17:08:59,663: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-13 17:08:59,663: INFO: data_ingestion: File already exists]
+[2025-06-13 17:08:59,664: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+ X==========================X]
+[2025-06-13 17:08:59,664: INFO: main: >>>>>>> stage Data Validation Stage started <<<<<<<]
+[2025-06-13 17:08:59,665: INFO: common: yaml file: config/config.yaml loaded sucessfully]
+[2025-06-13 17:08:59,665: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-06-13 17:08:59,666: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-06-13 17:08:59,666: INFO: common: created directory at: artifacts]
+[2025-06-13 17:08:59,666: INFO: common: created directory at: artifacts/data_validation]
+[2025-06-13 17:08:59,669: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<< 
+
+ X==========================X]
+[2025-06-13 17:08:59,669: INFO: main: >>>>>>> stage Data Transformation Stage started <<<<<<<]
+[2025-06-13 17:08:59,670: INFO: common: yaml file: config/config.yaml loaded sucessfully]
+[2025-06-13 17:08:59,670: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-06-13 17:08:59,671: INFO: common: yaml file: schema.yaml loaded sucessfully]
+[2025-06-13 17:08:59,671: INFO: common: created directory at: artifacts]
+[2025-06-13 17:08:59,671: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-13 17:08:59,683: INFO: data_transformation: Split the data into train and test sets]
+[2025-06-13 17:08:59,684: INFO: data_transformation: (1279, 12)]
+[2025-06-13 17:08:59,684: INFO: data_transformation: (320, 12)]
+[2025-06-13 17:08:59,684: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<< 
+
+ X==========================X]
